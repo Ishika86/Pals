@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "686422812585",
+    "firebase_url": "https://pals-60c6b.firebaseio.com",
+    "project_id": "pals-60c6b",
+    "storage_bucket": "pals-60c6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686422812585:android:92754f938cf10f10",
+        "android_client_info": {
+          "package_name": "com.isha.pals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686422812585-7pcgmopver1fu4vda9iu9p8mjis5i9ud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmhbn_W4r7eIvws_jR066Iknmp74wpCZE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

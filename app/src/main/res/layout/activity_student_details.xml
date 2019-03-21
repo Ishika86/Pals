@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STUDENT DETAILS"
+            android:textSize="35dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_horizontal" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:text="NAME"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="1"
+                    android:textSize="20dp"
+                    >
+
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="200px"
+                    android:id="@+id/name"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="5" />
+
+            </TableRow>
+
+
+
+            <TableRow>
+                <TextView
+                    android:text="EMAIL ID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_span="1">
+
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="200px"
+                    android:id="@+id/email"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="CONTACT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_span="1">
+
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="200px"
+                    android:id="@+id/contact"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="ENROLLMENT No."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20dp"
+                    android:layout_span="1">
+
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/enroll"
+                    android:width="200px"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="BRANCH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20dp"
+                    android:layout_span="1">
+
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="200px"
+                    android:id="@+id/branch"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="INTERNSHIP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_span="1">
+
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="200px"
+                    android:id="@+id/internship"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="5" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="PROJECTS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_span="1">
+
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="200px"
+                    android:id="@+id/project"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="5" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="ADDRESS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:layout_span="1">
+
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="200px"
+                    android:layout_marginTop="10dp"
+                    android:layout_span="5"
+                    android:id="@+id/address" />
+
+            </TableRow>
+
+
+
+
+
+
+        </TableLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/buttonSubmit"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimaryDark"
+
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fcf9f9" />
+
+
+    </LinearLayout>
+</ScrollView>
